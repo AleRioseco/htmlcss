@@ -1,0 +1,56 @@
+/*  
+1. son nombres de etiquetas
+2.  
+*/
+
+body {
+    background: darkgray;
+
+}
+
+label {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+
+}
+
+p {
+    font-size: 50 px ;
+    color:darkmagenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type=text]{
+    color: violet;
+
+}
+
+/* aplicando estilo por medio del id
+1. es unico solo afecta a ese id, a un elemento de la pagina. No se puede repetir
+2. solo se puede utilizar un estilo por elemento web
+*/
+
+
+#nombre {
+    border-width: 5px;
+    border-color: darkturquoise;
+}
+
+
+/* aplicando estilo por medio de clase
+1. se puede utilizar en cualquier objeto html
+2. puedo utilizarlo todas las veces que lo necesite
+3. se puede sgregar mas de un estilo con el class 
+*/
+
+
+.miboton {
+    background-color: forestgreen;
+    color:white;
+    width: 200px;
+}
+
